@@ -7,7 +7,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>welcome Page</title>
     </head>
-    <body background ="images/club.jpg">
+    <body background ="images/club.jpg" >
         <style>
             img{
                 width: 100%;
