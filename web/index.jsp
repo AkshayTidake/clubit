@@ -5,7 +5,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Admin Page</title>
+        <title>welcome Page</title>
     </head>
     <body>
         <form method="POST" action="DbConnection">
@@ -20,3 +20,4 @@
         </form>
     </body>
 </html>
+    
