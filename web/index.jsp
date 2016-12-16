@@ -7,17 +7,28 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>welcome Page</title>
     </head>
-    <body>
+    <body background ="images/club.jpg">
+        <style>
+            img{
+                width: 100%;
+                height:100vh;
+            }
+            </style>
+             <table>
+         
         <form method="POST" action="DbConnection">
-            <table>
+   
                 
                 <tr> 
-                    <td>Username :</td><td><input type="text" name="uname" pattern="[a-z,A-Z,0-9]"/></td></tr>
+                    <td>Username :</td><td><input type="text" name="uname" patterns="[a-z,A-Z,0-9]"/></td></tr>
                 <tr>  <td>Password :</td><td><input type="password" name="pswd"/></td></tr>
                 <tr>  <td align="center"><input type="submit" value="login"/></td>
+     
 </tr>
-            </table>
+            
         </form>
+               
+           </table>
     </body>
 </html>
     
