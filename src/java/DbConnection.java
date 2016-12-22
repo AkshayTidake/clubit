@@ -11,9 +11,10 @@ public class DbConnection extends HttpServlet {
        
           response.setContentType("text/html;charset=UTF-8");
           PrintWriter out = response.getWriter();
+          int i;
         
-        String Username=request.getParameter("uname");
-        String Password=request.getParameter("pswd");
+          String Username=request.getParameter("uname");
+          String Password=request.getParameter("pswd");
        
          if(LoginClass.validate(Username,Password)){
             RequestDispatcher r=request.getRequestDispatcher("welcome.jsp");
@@ -26,7 +27,4 @@ public class DbConnection extends HttpServlet {
         
     }
 
-   
-  
-
-}
+ }
